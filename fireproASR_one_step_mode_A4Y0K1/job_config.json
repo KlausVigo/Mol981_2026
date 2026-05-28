@@ -1,0 +1,42 @@
+{
+  "type" : "SEQUENCE_FULL",
+  "title" : null,
+  "email" : null,
+  "singleSequence" : {
+    "seqTxt" : "MSPSPASLNDQQRAAHIREQVMAHGNALRQRYPILQHQDALGAGILAFALCGMIGSAALYIGGHLPWWACLLLNAFFASLTHELEHDLIHSMYFRKQPLPHNLMLALVWLARPSTINPWVRRHLHLNHHKVSGSEADMEERAITNGEPWGIARLLMVGDNMMSSFIRWLRAKNPEHRRLILTRTLKVYAPLGLLNWATWYLFLGFHLLDWAAAALGAPIAWSASTLSVMQVVNVAVVVLVGPNVLRTFCLHFVSSNMHYYGDVEPGNVIQQTQVLNPWWLWPLQAFCFNFGSSHAIHHFVVKEPFYIRQLTVPFAHRVMREMGVRFNDFGTFARANRWTRRARTQQERASTA",
+    "residues" : [ ]
+  },
+  "lazarus" : true,
+  "vae" : false,
+  "successor" : true,
+  "advancedOptionsAsr" : {
+    "minIdentityField" : "30",
+    "maxIdentityField" : "90",
+    "clusteringIdentityField" : "0.9",
+    "evolutionaryModel" : "AUTOMATIC",
+    "gamma" : false,
+    "frequencies" : false,
+    "invariants" : false,
+    "bootstrapsField" : "50",
+    "gapCorrectionField" : "0.5"
+  },
+  "advancedOptionsVae" : {
+    "msaClustering" : false,
+    "clusteringIdentity" : "90",
+    "queryId" : null,
+    "fixedSequences" : null,
+    "fixedSequencesList" : [ "query" ],
+    "batchSize" : "0",
+    "layers" : "0",
+    "decay" : "0.1",
+    "dynamicDecay" : true,
+    "epochs" : "0",
+    "evoQuery" : "query",
+    "ancestors" : "100"
+  },
+  "advancedOptionsSuccessor" : {
+    "excludedAAIndices" : ""
+  },
+  "baseJobId" : null,
+  "userSequences" : null
+}
